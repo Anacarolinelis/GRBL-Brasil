@@ -1,0 +1,258 @@
+/* Estilos personalizados */
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card-title,
+.card-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3777b8; /* Cor azul escura */
+    margin-bottom: 10px;
+}
+.card {
+    border: 1px solid #fff; /* Adiciona uma borda branca aos cards */
+}
+
+.card-title {
+    color: #2b1da8; /* Cor preta para o título do card */
+}
+
+.card-text {
+    color: #000; /* Cor preta para o texto do card */
+}
+
+.card-text strong {
+    color: red; /* Cor vermelha para o valor do card */
+}
+
+
+.card-text {
+    font-size: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+body.produtos-page {
+    background-color: #5d89afc4; /* Altere para a cor desejada */
+}
+
+.card-img-top {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    display: block; /* Define a imagem como um bloco para poder aplicar o alinhamento */
+    margin-left: auto; /* Alinha a imagem no centro horizontalmente */
+    margin-right: auto; /* Alinha a imagem no centro horizontalmente */
+    border: 5px solid #ffffff; /* Borda branca ao redor das imagens */
+    padding: 10px; /* Adiciona um espaçamento entre a imagem e a borda */
+    box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos nas dimensões totais da imagem */
+}
+
+
+.flex-fill {
+    flex: 1 0 auto;
+}
+
+/* Estilos personalizados para o carrossel */
+.carousel-inner img {
+    width: auto;
+    height: 400px; /* Altura personalizada */
+    object-fit: contain; /* Ajusta a imagem para caber dentro do container */
+
+}
+.carousel-container {
+    margin-top: 70px; /* Adiciona um espaço superior para evitar sobreposição com a barra de navegação */
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #ffffff; /* Cor dos indicadores */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 40px;
+    height: 45px;
+    background-color: #000000; /* Cor das setas de navegação */
+}
+
+/* Estilos personalizados para o footer */
+.footer {
+    background-color: #021c36; /* Cor de fundo azul escuro */
+    color: #fff; /* Cor do texto branco */
+    padding: 20px 0; /* Preenchimento superior e inferior */
+    width: 100%; /* Ocupa toda a largura da tela */
+}
+
+.footer a {
+    color: #fff; /* Cor do link branco */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+.nav-link {
+    color: #004080; /* Cor azul escura */
+    margin-bottom: 60px; /* Espaçamento inferior */
+    text-decoration: none; /* Remove sublinhado */
+}
+.navbar {
+    background-color: navy; /* Cor de fundo */
+    box-shadow: 2px 3px 5px rgba(3, 2, 43, 0.986); /* Sombra */
+}
+/* esyilização para as letras da barra de navegação */
+.nav-link {
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #092e94; /* Cor azul escura */
+    margin-left: 20px; /* Espaçamento à esquerda */
+    margin-right: 20px; /* Espaçamento à direita */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+.navbar .nav-link:hover {
+    color: #627e9b; /* Cor ao passar o mouse */
+}
+.navbar .navbar-nav .nav-item {
+    margin-top: 80px; /* Adiciona uma margem superior de 10 pixels */
+    flex-grow: 9; /* Faz com que os itens cresçam igualmente para ocupar o espaço disponível */
+    margin-left: 60px; /* Adiciona espaçamento à esquerda das palavras */
+    margin-right: 50px; /* Adiciona espaçamento à direita das palavras */
+}
+.logo {
+    margin-right: 70px; /* Adiciona espaçamento à direita da logo */
+}
+.navbar .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+/* Estilos para o card de contatos */
+.contact-card {
+    justify-content: center;
+    width: 100%; /* Ocupa toda a largura da tela */
+    margin: 0 auto; /* Centralizar na horizontal */
+    padding: 30px; /* Preenchimento interno do card */
+    background-color: #165ea5b4;
+    box-shadow: 0 0 10px rgba(253, 242, 242, 0.1);
+    color: #fffcfc;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Estilos para os elementos dentro do card */
+.contact-card > * {
+    margin-bottom: 20px; /* Espaçamento inferior entre elementos */
+}
+/* Estilo para links e texto */
+.contact-card a,
+.contact-card p,
+.contact-card h5 {
+    color: #eee7e7;
+    font-weight: bold;
+    font-size: 1.2em; /* Aumentar o tamanho da fonte */
+}
+
+/* Estilo adicional para espaçamento entre os itens da lista */
+.contact-card ul {
+    padding-left: 0px;
+}
+
+.contact-card ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para redes sociais */
+.contact-card .d-flex a {
+    margin: 0 10px;
+}
+/* Estilo para o botão clicável com cor diferente */
+.contact-card .btn-primary {
+    background-color: #082f58; /* Cor de fundo padrão */
+    border-color: #007bff; /* Cor da borda padrão */
+    color: #fff; /* Cor do texto padrão */
+}
+
+.contact-card .btn-primary:hover,
+.contact-card .btn-primary:focus {
+    background-color: #0a2a4d; /* Cor de fundo ao passar o mouse ou focar */
+    border-color: #0c3057; /* Cor da borda ao passar o mouse ou focar */
+}
+
+/* Estilos para o contra-footer */
+.contra-footer {
+    width: 100%;
+    background-color: #848eac; /* Cor de fundo */
+    padding: 30px 0; /* Preenchimento superior e inferior */
+    text-align: center; /* Centraliza o texto */
+    border-top: 3px solid #000000;
+}
+.contra-footer .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.contra-footer h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contra-footer p {
+    margin-bottom: 15px;
+}
+
+.contra-footer a.btn-primary {
+    background-color: #007bff; /* Cor do botão */
+    border-color: #007bff; /* Cor da borda do botão */
+    margin-bottom: 20px;
+    padding: 5px 5px; /* Diminuir o botão */
+    font-size: 0.9em; /* Ajustar o tamanho da fonte */
+}
+
+.contra-footer a.btn-primary:hover,
+.contra-footer a.btn-primary:focus {
+    background-color: #0056b3; /* Cor ao passar o mouse ou focar */
+    border-color: #0056b3; /* Cor da borda ao passar o mouse ou focar */
+}
+
+.contra-footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizar os itens da lista */
+}
+
+.contra-footer ul li {
+    margin-bottom: 10px; /* Espaçamento inferior entre os itens */
+}
+
+.contra-footer ul li a {
+    color: #007bff; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+.btn-custom {
+    background-color: #ffffff;
+    color: #13487e;
+    border: 1px solid #ffffff;
+    font-weight: bold; /* Deixar a letra em negrito */
+    padding: 5px 10px; /* Diminuir o botão */
+    font-size: 0.9em; /* Ajustar o tamanho da fonte */
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+    background-color: #fafdff; /* Cor ao passar o mouse ou focar */
+    border-color: #ffffff; /* Cor da borda ao passar o mouse ou focar */
+}

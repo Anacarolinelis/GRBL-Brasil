@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Minha Empresa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://ideogram.ai/assets/image/balanced/response/98Hq8xpESSCPvP2f7hFwDg" alt="Logo da Minha Empresa" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contatos.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo da Página de Produtos -->
+    <div class="container mt-5">
+        <h1></h1>
+        <div class="row">
+            <!-- Card de Produto -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_688763-MLU74823589454_032024-O.webp" class="card-img-top" alt="Produto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Impressora 3D</h5>
+                        <p class="card-text">Impressora 3D: cria objetos tridimensionais camada por camada.
+                        </p>
+                        <p class="card-text"><strong>Valor: R$ 1000,00</strong></p>
+                        <button class="btn btn-success">Comprar</button> <!-- Botão "Comprar" verde -->
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repetir este bloco para mais produtos -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Impressora LED</h5>
+                        <p class="card-text">Impressora LED: impressão colorida e rápida com tecnologia LED.
+                        </p>
+                        <p class="card-text"><strong>Valor: R$ 1500,00</strong></p>
+                        <button class="btn btn-success">Comprar</button> <!-- Botão "Comprar" verde -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repetir este bloco para mais produtos -->
+            <!-- Adicione os produtos a partir daqui -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://a-static.mlcdn.com.br/800x560/impressora-multifuncional-epson-ecotank-l4260-tanque-de-tinta-colorida-usb-wi-fi/magazineluiza/232043100/39a2c323ee9f62cde0c5d13a9934aace.jpg" class="card-img-top" alt="Produto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Impressora Multifuncional</h5>
+                        <p class="card-text">Faz cópias, escaneia documentos e algumas até enviam fax.</p>
+                        <p class="card-text"><strong>Valor: R$ 2000,00</strong></p>
+                        <button class="btn btn-success">Comprar</button> <!-- Botão "Comprar" verde -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Adicione os produtos a partir daqui -->
+            <!-- Continue adicionando produtos conforme necessário -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://www.weldvision.com/wp-content/uploads/2022/07/Maquina-de-Corte-a-Laser-de-Fibra-Independent.png.webp" class="card-img-top" alt="Produto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Maquina de corte a laser fibra optica
+                        </h5>
+                        <p class="card-text">Máquina corta materiais precisamente com feixe laser concentrado.
+                        </p>
+                        <p class="card-text"><strong>Valor: R$ 2000,00</strong></p>
+                        <button class="btn btn-success">Comprar</button> <!-- Botão "Comprar" verde -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://www.ds4.com.br/imagens/informacoes/fresadora-cnc-router-madeira-01.webp" class="card-img-top" alt="Produto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Router CNC: madeira
+                        </h5>
+                        <p class="card-text">Especialmente recomendada para trabalhos de marcenaria</p>
+                        <p class="card-text"><strong>Valor: R$ 2000,00</strong></p>
+                        <button class="btn btn-success">Comprar</button> <!-- Botão "Comprar" verde -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://img.lojadomecanico.com.br/IMAGENS/21/628/319758/1658428097212.JPG" class="card-img-top" alt="Produto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Router CNC: metal
+                        </h5>
+                        <p class="card-text">Faz excelentes trabalhos com alumínio, bronze, cobre, etc..</p>
+                        <p class="card-text"><strong>Valor: R$ 2000,00</strong></p>
+                        <button class="btn btn-success">Comprar</button> <!-- Botão "Comprar" verde -->
+                    </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container text-center">
+            <p>© Copyright 2023 - GRBL Brasil | (11) 4935-2365 | CNPJ 15.427.207/0001-14 CENU - Torre Norte, Av. das Nações Unidas, 12901 - Cidade Monções, São Paulo/SP.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

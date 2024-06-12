@@ -1,11 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GRBL BRASIL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://ideogram.ai/assets/image/balanced/response/98Hq8xpESSCPvP2f7hFwDg" alt="Logo da Empresa" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contatos.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrossel de Imagens -->
+    <div class="carousel-container">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!-- Imagens do Carrossel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_688763-MLU74823589454_032024-O.webp" class="d-block w-100" alt="Imagem 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTdQ0T_VCfx_pp38goYCxuLdfdeEsnVvwyLo-zLVp5S9-vuSutjRJaCIstx3P0TdqyvcfQu26Hl36U8C-4w4m8X-m9ae7S5mreFEC1QWPXoh_W88B_XjzLS&usqp=CAE" class="d-block w-100" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTm55op99on9uyJI-uLQLvufeXKwAq_KPhCddFHMkOAdzM9rPa-lA84z_ckwAa_8hK7OgGrvy4eCBmbPGMmjWIYFzwiZX4pGi810rQiWPOMUmuHzMXXeeA9&usqp=CAE" class="d-block w-100" alt="Imagem 3">
+                </div>
+            </div>
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Descrição da Empresa -->
+    <div class="container mt-5 text-center">
+        <h1>Quem somos?</h1>
+        <h5>A GRBL BRASIL é líder em tecnologias de fabricação digital, especializada em máquinas de corte a laser diodo, CNC Routers e impressoras 3D. Oferecemos soluções de alta precisão e desempenho para transformar ideias em realidade com eficiência.</h5>
+        <h5>Nosso compromisso com a excelência nos permite fornecer ferramentas avançadas para uma variedade de indústrias e aplicações. Com suporte técnico especializado e recursos educacionais, garantimos que nossos clientes possam maximizar o uso de nossos produtos.</h5>
+        <h5>Seja você um hobbyista, empreendedor ou uma grande indústria, a GRBL BRASIL está aqui para impulsionar seu sucesso com tecnologia confiável e inovadora.</h5>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container text-center">
+            <p>© Copyright 2023 - GRBL Brasil | (11) 4935-2365 | CNPJ 15.427.207/0001-14 CENU - Torre Norte, Av. das Nações Unidas, 12901 - Cidade Monções, São Paulo/SP.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
